@@ -1,0 +1,16 @@
+# HTTP-клиенты с имитацией TLS-отпечатка браузера (обход Qrator/ServicePipe)
+curl_cffi>=0.7
+httpx>=0.27
+requests>=2.31
+
+# Парсинг HTML
+selectolax>=0.3
+beautifulsoup4>=4.12
+lxml>=5.0
+
+# Playwright-fallback для прогрева сессии / JS-челленджей
+playwright>=1.45
+
+# Инструменты исследования мобильного трафика Самоката (опционально)
+uiautomator2>=3.0
+mitmproxy>=10.0
